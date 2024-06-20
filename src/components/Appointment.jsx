@@ -8,12 +8,12 @@ import AOS from 'aos'; // Import AOS library
 const AppointmentPage = () => {
   // Dummy data for available appointments
   const [appointments] = useState([
-    { id: 1, time: '09:00 AM', available: true },
     { id: 2, time: '10:00 AM', available: false },
-    { id: 3, time: '11:00 AM', available: true },
-    { id: 4, time: '12:00 PM', available: true },
-    { id: 5, time: '01:00 PM', available: false },
+    { id: 1, time: '09:00 AM', available: true },
     { id: 6, time: '02:00 PM', available: true },
+    { id: 4, time: '12:00 PM', available: true },
+    { id: 3, time: '11:00 AM', available: true },
+    { id: 5, time: '01:00 PM', available: false },
   ]);
 
   useEffect(() => {
@@ -47,7 +47,7 @@ const AppointmentPage = () => {
       }}
     >
       <Typography variant="h4" gutterBottom data-aos="fade-left" data-aos-duration="1000">
-        Available Appointments
+        AVAILABLE APPOINTMENT
       </Typography>
 
       {/* Date Selection */}
@@ -123,7 +123,7 @@ const AppointmentPage = () => {
 
       {/* Working Hours Grid */}
       <Typography variant="h4" gutterBottom sx={{ textAlign: 'center', marginTop: '40px' }} data-aos="fade-up" data-aos-duration="1000">
-        Working Hours
+        WORKING TIME
       </Typography>
       <Grid
         container

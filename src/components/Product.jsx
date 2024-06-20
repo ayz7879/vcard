@@ -10,29 +10,29 @@ const products = [
     id: 1,
     name: 'Product 1',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    imageUrl: 'https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/bcab83a0-a4a7-415b-ab96-ae10c9c8065b._CR0,0,1200,628_SX920_QL70_.jpg',
-    price: '$19.99',
+    imageUrl: 'https://m.media-amazon.com/images/I/61abLrCfF7L._SX679_.jpg',
+    price: '$256.99',
   },
   {
     id: 2,
     name: 'Product 2',
     description: 'Pellentesque eu ante in nisi placerat venenatis a sit amet lectus.',
-    imageUrl: 'https://m.media-amazon.com/images/I/715bP5rcaBL._AC_UL320_.jpg',
-    price: '$29.99',
+    imageUrl: 'https://m.media-amazon.com/images/I/61-r9zOKBCL._SX679_.jpg',
+    price: '$900.99',
   },
   {
     id: 3,
     name: 'Product 3',
     description: 'Donec a nisi non augue luctus auctor.',
-    imageUrl: "https://m.media-amazon.com/images/I/61GwfK83hjL._AC_UL320_.jpg",
-    price: '$24.99',
+    imageUrl: "https://m.media-amazon.com/images/I/81vxWpPpgNL._SL1500_.jpg",
+    price: '$1049.99',
   },
   {
     id: 4,
     name: 'Product 4',
     description: 'Fusce condimentum, ligula sed volutpat vestibulum, libero arcu gravida libero.',
-    imageUrl: 'https://m.media-amazon.com/images/I/71Zf9uUp+GL._AC_UL320_.jpg',
-    price: '$39.99',
+    imageUrl: 'https://m.media-amazon.com/images/I/714BfLMFR6L._SX679_.jpg',
+    price: '$551.99',
   },
 ];
 
@@ -57,7 +57,7 @@ const Product = () => {
         gutterBottom
         sx={{ textAlign: 'center', marginBottom: '40px', color: grey[800], fontWeight: 'bold' }}
       >
-        Our Products
+        PRODUCTS INFORMATION
       </Typography>
 
       <Grid container spacing={3} justifyContent="center" sx={{ width: '100%', padding: '0 20px' }}>

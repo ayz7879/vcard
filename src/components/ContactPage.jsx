@@ -27,7 +27,7 @@ const ContactPage = () => {
       }}
     >
       <Typography variant="h4" data-aos="fade-right" data-aos-duration="1000" gutterBottom>
-        Contact Information
+        CONTACT INFORMATION
       </Typography>
 
       <Grid container spacing={3} justifyContent="center" sx={{ width: '100%' }}>
@@ -135,7 +135,7 @@ const ContactPage = () => {
             }}
           >
             <Typography variant="h5" gutterBottom sx={{ textAlign: 'center', marginBottom: '20px', color: '#2c5364' }}>
-              Contact Us
+              CONTACT US
             </Typography>
 
             <form onSubmit={handleSubmit} style={{ width: '100%' }}>

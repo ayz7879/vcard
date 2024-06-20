@@ -33,7 +33,7 @@ const Payment = () => {
       }}
     >
       <Typography variant="h4" data-aos="fade-up" data-aos-duration="1000" gutterBottom sx={{ textAlign: 'center', marginBottom: '40px' }}>
-        Payment Information
+        PAYMENTS INFORMATION
       </Typography>
 
       {/* Bank Details Card */}
@@ -57,13 +57,13 @@ const Payment = () => {
         </Typography>
         <AccountBalanceIcon fontSize="large" />
         <Typography variant="body1" gutterBottom>
-          Bank Name: ABC Bank
+          Bank Name: SBI Bank
         </Typography>
         <Typography variant="body1" gutterBottom>
-          Account Number: XXXXXXXX
+          Account Number: XXXX1234
         </Typography>
         <Typography variant="body1" gutterBottom>
-          IFSC Code: XXXX0000
+          IFSC Code: XXXX1234
         </Typography>
       </Paper>
 
@@ -88,7 +88,7 @@ const Payment = () => {
         </Typography>
         <QrCodeIcon fontSize="large" />
         <Typography variant="body1" gutterBottom>
-          Status: Payment Received
+          Status: Payment Sent
         </Typography>
         <Typography variant="body1" gutterBottom>
           Terms & Conditions Apply
@@ -117,7 +117,7 @@ const Payment = () => {
               Paytm
             </Typography>
             <Typography variant="body2" gutterBottom>
-              98765 43210
+              1234 456789
             </Typography>
           </Card>
         </Grid>
@@ -142,7 +142,7 @@ const Payment = () => {
               PhonePe
             </Typography>
             <Typography variant="body2" gutterBottom>
-              98765 67890
+              99999 99999
             </Typography>
           </Card>
         </Grid>
@@ -167,7 +167,7 @@ const Payment = () => {
               Google Pay
             </Typography>
             <Typography variant="body2" gutterBottom>
-              98765 12345
+              77777 77777
             </Typography>
           </Card>
         </Grid>
